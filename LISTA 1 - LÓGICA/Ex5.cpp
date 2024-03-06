@@ -1,6 +1,5 @@
 #include <cstdlib>
 #include <iostream>
-#include <math.h>
 
 using namespace std;
 
@@ -11,8 +10,7 @@ int main()
     cin >> num;
     if (num % 2 == 0){
         cout << "Numero Par!";
-    }
-    else{
+    } else {
         cout << "Numero Impar!";
     }
     return 0;

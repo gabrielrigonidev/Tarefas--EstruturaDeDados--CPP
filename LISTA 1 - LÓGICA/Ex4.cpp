@@ -7,25 +7,26 @@ int main()
 {
     double baseMenor, baseMaior, h, area;
     
-    cout << "Digite a base maior do trapezio: ";
+    cout << "Digite a Base Maior do Trapezio: ";
     cin >> baseMaior;
+
     if (baseMaior <= 0){
         cout << "Base maior Invalida";
         return 0;
     }
-    cout << "Digite o tamanho da base menor do trapezio: ";
+    cout << "Digite a Base Menor do Trapezio: ";
 
     cin >> baseMenor;
     if (baseMenor <= 0){
-        cout << " Base menor Invalida";
+        cout << " Base Menor Invalida";
         return 0;
     }
     else if (baseMenor > baseMaior){
-        cout << "Base menor não pode ser maior que a base maior";
+        cout << "Base Menor nao pode ser maior que a Base Maior";
         return 0;
     }
 
-    cout << "Digite o tamanho da altura do trapezio: ";
+    cout << "Digite a altura do Trapezio: ";
     cin >> h;
     if (h <= 0){
         cout << "Altura Invalida";
