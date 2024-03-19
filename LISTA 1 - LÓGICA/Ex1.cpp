@@ -12,18 +12,17 @@ int main()
     cout << "Digite 3 valores: " << endl;
     cin >> a>>b>>c;
     
-    delta = (b*b) - (4*a*c);
+    delta = (b*b) -4*a*c;
     
     if(delta>0){  
-        x1 = -b + sqrt(delta) / (2*a);
-        x2 = -b - sqrt(delta) / (2*a);
-        cout << "Delta: " << delta << " | X1 = "<<x1<<" | X2 = "<< x2 << endl;
+        x1 = (-b + sqrt(delta)) / (2*a);
+        x2 = (-b - sqrt(delta)) / (2*a);
+        cout << "Delta: " << delta << " | X1 = "<< x1 <<" | X2 = "<< x2 << endl;
     }
     else if(delta==0){
         x1=-b/(2*a);
         cout << "A raiz "<<x1 << endl;
-    }
-    else{
+    } else {
         cout << "Nao existe raiz" << endl;
     }
     return 0;
