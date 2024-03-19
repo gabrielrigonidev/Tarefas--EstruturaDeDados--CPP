@@ -16,8 +16,7 @@ int main() {
 
     if (n2 < menor) { 
         menor = n2; 
-    } 
-    else if (n2 > maior) { 
+    }  else if (n2 > maior) { 
         maior = n2; 
     }
 

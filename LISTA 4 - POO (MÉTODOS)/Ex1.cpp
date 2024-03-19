@@ -10,7 +10,6 @@ float calcFah (float c){
 	return (c / 5 * 9 )+ 32;
 }
 
-
 int main() {
 	float Fahrenheit, Celsius;
 	int valor;
