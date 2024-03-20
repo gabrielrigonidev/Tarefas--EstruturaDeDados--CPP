@@ -4,7 +4,7 @@ using namespace std;
 int soma (int a, int b);
 int quad (int c);
 int somaquad (int d, int e);
-
+//----------------------------------------------------------------------
 int main(){
     int x, y;
     cout << "Digite: " << endl;
@@ -12,7 +12,7 @@ int main(){
     cout << "Soma dos quadrados dos números: " << somaquad(x,y) << endl;
     return 0;
 }
-
+//----------------------------------------------------------------------
     int soma (int a, int b){
         return a+b;
     }
